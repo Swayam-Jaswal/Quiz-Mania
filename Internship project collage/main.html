@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Mania</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/CSS/style.css">
+    <script src="assets/JavaScript/script.js" defer></script>
+</head>
+
+<body>
+    <button id="theme">&#127774; Light</button>
+    <header>
+        <div id="head-logo">
+            <a href="#"><img src="assets/images/quiz-mania logo.png" alt="image"></a>
+        </div>
+        <div id="head-title">
+            <h1>Quiz Mania</h1>
+        </div>
+    </header>
+    <main>
+        <div class="create-quiz-div">
+            <div class="create-quiz-heading">
+                <div class="create-quiz-heading-content">
+                    <h1>Create a Quiz for yourself or friends.</h1>
+                    <p>Make a interactive Quiz to test your knowledge, to help students.</p>
+                </div>
+                <br><br><br>
+                <div class="create-quiz-btn">
+                    <button id="create-btn" class="shadow">Create Quiz</button>
+                </div>
+            </div>
+            <div class="create-quiz-img">
+                <img src="assets/images/quiz img.jpg" alt="image">
+            </div>
+        </div>
+        <hr><br><br>
+        <div class="quiz-box">
+            <div class="available-quiz-heading">
+                <h1>Available Quiz</h1>
+            </div>
+            <br><br>
+            <div class="available-quiz">
+                <div class="available-quiz-numbers" id="available-quiz-data">
+                    <div class="quiz-cell shadow">
+                        <img src="assets/images/quiz image 2.jpg" alt="img">
+                        <p><span>Maths Quiz</span></p>
+                        <a href="start-quiz.html" id="start-quiz-btn"><button>Start Quiz</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="create-template" class="shadow">
+        <h2>Instruction</h2><br><br>
+        <ol>
+            <li>All questions cumpulsory.</li>
+            <li>complete all questions in given time</li>
+            <li>10 minutes will be given</li>
+        </ol>
+        <br><br><br><br>
+        <button id="create-quizbtn" class="shadow">Create</button>
+        <br>
+        <button id="backbtn" class="shadow">Go Back</button>
+    </div>
+</body>
+
+</html>

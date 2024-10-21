@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(55, 55, 55);
+}
+
+.placeholder{
+    font-size: 0.8em;
+    border-radius: 5px;
+    border: none;
+    background-color: lightgrey;
+}
+
+#signin-outerdiv{
+    background: grey;
+    padding: 30px;
+    font-size: 1.6em;
+    border-radius: 20px;
+}
+
+#signin-btn{
+    display: flex;
+    justify-content: center;;
+}
+
+#signin-btn a{
+    height: 100%;
+    width: 100%;
+}
+.submitDiv{
+    margin-right: 20px;
+}
+
+.Button{
+    height: 3em;
+    width: 6em;
+    border-radius: 10px;
+    border: none;
+}
+
+.hover:hover{
+    opacity: 70%;
+    cursor: pointer;
+}
+
+input:valid{
+    outline-color: green;
+}

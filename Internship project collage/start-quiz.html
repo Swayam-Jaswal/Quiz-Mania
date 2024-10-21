@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="assets/CSS/quiz.css">
+    <script src="assets/JavaScript/start-quiz.js" defer></script>
+    <script src="assets/JavaScript/timer.js" defer></script>
+</head>
+
+<body>
+    <button id="theme">&#127774; Light</button>
+    <div id="instruction-template" class="shadow">
+        <h2>Instruction</h2><br><br>
+        <ol>
+            <li>All questions cumpulsory.</li>
+            <li>complete all questions in given time</li>
+            <li>10 minutes will be given</li>
+        </ol>
+        <br><br><br><br>
+        <!-- <button id="startbtn" class="shadow">Start</button> -->
+        <button id="startbtn" class="shadow">Start</button>
+    </div>
+    <br>
+    <div class="timer">
+        <!-- <div id="timermain">Time Left <span id="click">--</span> seconds</div> -->
+        <div class="timermain">Time Left - <span id="timer">600</span>Seconds</div>
+    </div>
+    <div id="container" class="shadow">
+        <div class="container-heading">
+            <h1>Maths Quiz</h1>
+        </div>
+        <br>
+        <div class="container-quiz">
+            <div class="question">
+                <span>Q1</span>
+                <span>Which number is equivalent to 3^(4)÷3^(2)?</span>
+            </div>
+            <div class="question">
+                <span>Q2</span>
+                <span>There are 49 dogs signed up for a dog show. There are 36 more small dogs than large dogs. How many
+                    small dogs have signed up to compete? </span>
+            </div>
+            <div class="question">
+                <span>Q3</span>
+                <span>Add 8.563 and 4.8292.</span>
+            </div>
+            <div class="question">
+                <span>Q4</span>
+                <span>I am an odd number. Take away one letter and I become even. What number am I?</span>
+            </div>
+            <div class="finishBtnDiv">
+                <a href="finish.html"><button class="finishBtn">Finish</button></a>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
